@@ -24,7 +24,7 @@ The recode function was used to create another column with descriptive names for
 The make.name function used earlier and gsub function was used to further simplify the character strings and create appropriate labels
 Appropriate variable names should not have special characters.
 
-### From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+### 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Subject data for both the test and train data was downloaded,then combined to create one data set with all the IDs corresponding to each of the 10299 observations. This result was then added to the final data set obtained in question 4. The average of all variables was then found using the group_by function to group the data by the subject ID and Activities, and then the mean was determined for each variable.
 
 ### Codebook
